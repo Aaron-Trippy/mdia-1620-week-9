@@ -13,26 +13,26 @@
     </style>
 </head>
 <body>
-    <div>
-        <div>
-            <h1 id="firstName"></h1>
+    <div class="d-flex justify-content-center">
+        <div class=".bg-light">
+            <h1 id="firstName" class ="text-primary"></h1>
         </div>
     </div>
 
-    <div>
+    <div class="d-flex justify-content-around">
         <button id="buttonOne">first button</button>
         <button id="buttonTwo">second button</button>
         <div id="box"></div>
     </div>
 
-    <div>
+    <div class="d-flex justify-content-around">
         <img id="presentImage" alt=""/>
     </div>
 
-    <div>
-        <div >
-            <button id="showBox" onclick="boxDisplay(false)">Show box and image</button>
-            <button id="hideBox" onclick="boxDisplay(true)">Hide box and image</button>
+    <div class="d-flex align-items-end flex-column" style="height: 200px">
+        <div class="mt-auto p-2">
+            <button id="showBox" onclick="boxDisplay(false)" type="button" class="btn btn-success">Show box and image</button>
+            <button id="hideBox" onclick="boxDisplay(true)" class="btn btn-warning">Hide box and image</button>
         </div>
       </div>
     
